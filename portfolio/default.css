@@ -1,0 +1,264 @@
+	html, body
+	{
+		height: 100%;
+	}
+	#header-wrapper
+	{
+		overflow: hidden;
+		background: no-repeat center;
+		background-size: 100% auto;
+	}
+
+	#header
+	{
+		overflow: hidden;
+		position: relative;
+		padding: 5em 0em;
+	}
+	img
+	{
+    box-shadow: 3px 4px 3px #D91E18;
+	border-radius: 200px;
+	height:200px;
+	width:200px}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background:#FF0033;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		color: #000000;
+	}
+	
+	h1{font-size:20px;
+	font-family:"agency FB";
+	color:#FFFFFF;
+	text-align:center;
+	margin-left:400px}
+	h1.a{font-size:20px;
+	font-family:"agency FB";
+	color:#FFFFFF;
+	text-align:center;
+	margin-left:300px}
+	
+	h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.button {
+ 	border-radius:14px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+}
+
+.button1:hover {
+    background-color: rgba(127, 140, 141,1.0);
+    color: white;
+}
+.buttonn {
+	border-radius:14px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonn1 {
+    background-color: white; 
+    color: black; 
+}
+
+.buttonn1:hover {
+    background-color: rgba(52, 73, 94,1.0);
+    color: white;
+}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	
+	ol, ul,dt
+	{
+		padding-left: 0;
+		list-style:none;
+	}
+	ul.a{margin-top: 0;
+		padding-left: 0;
+		list-style: circle;}
+	li
+	{padding-left:0em;
+	margin-left:2em;}
+
+
+	p
+	{
+	color:#999999;
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #151515;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{	overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+	
+	
+	
+		
+	#logo
+	{
+	position: absolute;
+	top: 2.5em;
+	left: 26px;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		font-size: 2.5em;
+		font-weight: 600;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #FFF;
+	}
+
+	#banner
+	{
+		overflow: hidden;
+		padding: 2em 0em 0em 0em;
+		margin-bottom:0;
+		border-top: 1px solid rgba(0,0,0,0.08);
+		border-bottom: 0px solid rgba(0,0,0,0.08);
+		text-align: center;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#banner a
+	{
+		color: rgba(255,255,255,0.7);
+	}
+	#name
+	{
+	font-family:"Good Times Rg", "Agency FB", "Starcraft";
+	font-size:30px;
+	color:#FFFFFF;
+	margin-bottom:30px;
+		overflow: hidden;
+		padding: 1em 0em 0em 0em;
+		margin-bottom:0;
+		border-top: 0px solid rgba(0,0,0,0.08);
+		border-bottom: 0px solid rgba(0,0,0,0.08);
+		text-align: center;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#name a
+	{
+		color: rgba(255,255,255,0.7);
+	}
+	#tombol
+	{
+		overflow: hidden;
+		padding: 1em 0em 0em 0em;
+		margin-bottom:0;
+		border-top: 0px solid rgba(0,0,0,0.08);
+		border-bottom: 0px solid rgba(0,0,0,0.08);
+		text-align: center;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#toombol a
+	{
+		color: rgba(255,255,255,0.7);
+	}
+.footer
+	{	overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 2em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.90em;
+		color:#666666;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color:#CCCCCC;
+	}
+	
+
+   .resume {margin: 0 auto; min-width: 320px; max-width: 800px;}
+   .content {background: #fff; color: #373737; font-family:"Good Times Rg"; font-size:20px;box-shadow: 10px 10px 5px #D91E18; border-radius: 30px;}
+   .content > div {display: none; padding: 20px 25px 5px;}
+ 
+   input {display: none;}
+   label { margin-left:310px; width:auto;display: inline-block; padding: 15px 25px; font-weight: 600; text-align: center;}
+   label:hover {color: #fff; cursor: pointer;}
+   input:checked + label {background: #ed5a6a; color: #fff;}
+ 
+   #tab1:checked ~ .content #content1,
+   #tab2:checked ~ .content #content2,
+   #tab3:checked ~ .content #content3,
+   #tab4:checked ~ .content #content4 {
+     display: block;
+   }
+ 
+   @media screen and (max-width: 400px) { label {padding: 15px 10px;} }
