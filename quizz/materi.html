@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STIPS-Study With DIPS</title>
+    <link rel="stylesheet" href="media-player.css" type="text/css">
+    <link rel="shortcut icon" href="dips.png">
+    <script src='media-player.js'></script>
+</head>
+<body>
+<div class="grid">
+    <div id="quiz">
+        <h1>Materi</h1>
+        <hr style="margin-bottom:20px">
+
+<div id='media-player'>
+    <video id='media-video' controls>
+        <source src='satu.mp4' sizes="50%" type='video/mp4'>
+        <source src='parrots.webm' type='video/webm'>
+    </video>
+    <div id='media-controls'>
+        <progress id='progress-bar' min='0' max='100' value='0'>0% played</progress>
+        <button  id='replay-button' class='replay' title='replay' onclick='replayMedia();'>Replay</button>
+        <button  id='play-pause-button' class='play' title='play' onclick='togglePlayPause();'>Play</button>
+        <button  id='stop-button' class='stop' title='stop' onclick='stopPlayer();'>Stop</button>
+        <button  id='volume-inc-button' class='volume-plus' title='increase volume' onclick='changeVolume("+");'>Increase Volume</button>
+        <button  id='volume-dec-button' class='volume-minus' title='decrease volume' onclick='changeVolume("-");'>Decrease Volume</button>
+        <button  id='mute-button' class='mute' title='mute' onclick='toggleMute("true");'>Mute</button>
+    </div>
+    <div id='media-play-list'>
+        <h2>Daftar Materi</h2>
+        <ul id='play-list'>
+            <li><span class='play-item' onclick='loadVideo("penjumlahan.mp4");'>Penjumlahan</span></li>
+            <li><span class='play-item' onclick='loadVideo("pengurangan.mp4");'>Pengurangan</span></li>
+            <li><span class='play-item' onclick='loadVideo("perkalian.mp4");'>Perkalian</span></li>
+            <li><span class='play-item' onclick='loadVideo("pembagian.mp4");'>Pembagian</span></li>
+        </ul>
+        <div id="buton">
+        <a href="Menu.html" class="button button1">Menu</a>
+            <a href="quiz.html" class="buttonss buttonss1">Quiz</a>
+            </div>
+    </div>
+</div>
+        </div>
+
+<script src="quiz_controller.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
